@@ -1,0 +1,9 @@
+顯示 app 日誌
+heroku logs --tail --app {HEROKU_APP_NAME}
+heroku logs --tail --app line-jianmiau
+
+輸入以下指令，將程式碼推上 Heroku，如果有跳出錯誤請重新輸入
+git add .
+git commit -m "Add code"
+git push -f heroku master
+每當需要更新 Bot 時，請重新輸入上述指令

@@ -1,0 +1,3 @@
+line-bot-sdk
+flask
+oauth2client==4.1.2
